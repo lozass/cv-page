@@ -10,9 +10,8 @@ handlers:
 - url: /css
   static_dir: css
 
-- url: /(.*\.(gif|png|jpg))$
-  static_files: resources/\1
-  upload: resources/.*\.(gif|png|jpg)$
+- url: /resources
+  static_dir: resources
 
 - url: /(.*)
   static_files: /\1
