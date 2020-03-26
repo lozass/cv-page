@@ -4,13 +4,6 @@ $highlightcardcolor: lightgray
 .link
   background-color: lightgray
 
-.navmenu
-  margin: 20px
-
-.navhome
-  @extend .navmenu
-  color: red
-
 .mycard
   background-color: $regularcardcolor
   color: white
