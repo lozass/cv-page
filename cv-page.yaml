@@ -7,6 +7,13 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /css
+  static_dir: css
+
+- url: /(.*\.(gif|png|jpg))$
+  static_files: resources/\1
+  upload: resources/.*\.(gif|png|jpg)$
+
 - url: /(.*)
   static_files: /\1
   upload: /(.*)
