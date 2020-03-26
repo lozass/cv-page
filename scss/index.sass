@@ -1,0 +1,31 @@
+$regularcardcolor: teal
+$highlightcardcolor: lightgray
+
+.summary
+  background-color: lightblue
+
+.navmenu
+  margin: 20px
+
+.navhome
+  @extend .navmenu
+  color: red
+
+.mycard
+  background-color: $regularcardcolor
+  color: white
+  margin: 5px
+  padding: 20px
+
+.myredcard
+  @extend .mycard
+  color: red
+  background-color: $highlightcardcolor
+
+#index
+  font-weight: bold
+
+
+@media only screen and (max-width: 600px)
+  body
+    background-color: lightblue
